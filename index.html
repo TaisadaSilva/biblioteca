@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>LivreMente</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="cor">LivreMente</h1>
+        <nav id="navbar">
+            <a href="#biblioteca"> Bliblioteca </a>
+            <a href="#autores"> Autores </a>
+            <a href="#leituraGratuitas"> Leituras Gratuitas </a>
+            <a href="#compartilhar"> Compartilhar </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="topo">
+            <img src="img/banner.png" alt="café e livros" class="banner">
+            <h2 class="cor">Todo mundo merece acesso à leitura.</h2>
+            <p>
+                Neste espaço, o conhecimento circula com liberdade, respeito e empatia.</p>
+            <p>
+                Se você tem um livro livre, compartilhe. Se está buscando leitura,
+                aproveite.
+            </p>
+        </section>
+
+        <section id="biblioteca">
+            <div class="containerimg">
+               <img src="img/bliblioteca (7).jpg" alt="" class="imagem imgcima">
+                <img src="img/bliblioteca (5).jpg" alt="" class="imagem imgbaixo">
+            </div>
+            <h2 class="cor">📚 Biblioteca Solidária</h2>
+            <p>
+                Explore livros em domínio público e obras autorizadas por autores
+                independentes.
+            </p>
+            <div class="caixa">
+                <h3>Dom Casmurro – Machado de Assis</h3>
+                <button>Baixar PDF</button>
+            </div>
+        </section>
+
+        <section id="autores">
+            <div>
+                <img src="img/bliblioteca (1).jpg" alt="" class="img">
+            </div>
+            <h2 class="cor">✍️ Autores Parceiros</h2>
+            <p>Conheça escritores que compartilham suas obras gratuitamente.</p>
+            <div class="caixa">
+                <h3>Maria Silva</h3>
+                <p><i>"Contos de um tempo esquecido"</i></p>
+                <button>Baixar PDF</button>
+            </div>
+        </section>
+
+        <section id="leitura">
+            <div class="containerimg2">
+                <img src="img/bliblioteca (4).jpg" alt="" class=" imgmeio">
+                <img src="img/bliblioteca (6).jpg" alt="" class=" imgmeio2">
+            </div>
+            <h2 class="cor">🌍 Leituras Gratuitas</h2>
+            <p>Encontre acervos incríveis de livros disponíveis legalmente:</p>
+            <ul>
+                <li><a href="#"> Domínio Público </a></li>
+                <li><a href="#"> Project Gutenberg </a></li>
+                <li><a href="#"> Open Library </a></li>
+                <li><a href="#"> Biblioteca Digital da USP </a></li>
+            </ul>
+        </section>
+
+        <section id="post">
+            <h2 class="cor">📤 Compartilhe um Livro</h2>
+            <p>Tem um PDF de livro em domínio público ou de sua autoria? Envie para nós:</p>
+            <form action="#" method="post">
+                <input type="text" id="nome" name="name" placeholder="Seu nome">
+                <input type="email" id="email" name="email" placeholder="Seu e-mail">
+                <input type="text" id="tituloLivro" name="tituloLivro" placeholder="Título do livro">
+                <input type="url" id="linkLivro" name="linkLivro" placeholder="Link do PDF(Google Drive,etc)">
+                <label>
+                   
+                    <p> <input class="checkbox" type="checkbox" required >  Confirmo que este livro é de domínio público ou de minha autoria.</p>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LivreMente - Projeto solidário de leitura</p>
+    </footer>
+
+</body>
+
+</html>
